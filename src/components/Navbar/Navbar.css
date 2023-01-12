@@ -57,14 +57,14 @@
     background-color: #fff;
 }
 
-.nav-small {
+.app__navbar-smallscreen {
     display: none;
 }
 
-.nav-smalloverlay {
+.app__navbar-smallscreen_overlay {
     position: fixed;
     top: 0;
-    bottom: 0;
+    left: 0;
     width: 100%;
     height: 100vh;
     background: var(--color-black);
@@ -73,7 +73,7 @@
     z-index: 5;
 }
 
-.nav-smalloverlay .overlay-close {
+.app__navbar-smallscreen_overlay .overlay__close {
     font-size: 27px;
     color: var(--color-golden);
     cursor: pointer;
@@ -82,12 +82,12 @@
     right: 20px;
 }
 
-.app-small-ul-links {
+.app__navbar-smallscreen_links {
     list-style: none;
 }
 
-.app-small-ul-links li {
-    margin: 1rem;
+.app__navbar-smallscreen_links li {
+    margin: 2rem;
     cursor: pointer;
     color: var(--color-golden);
     font-size: 2rem;
@@ -95,13 +95,13 @@
     font-family: var(--font-base);
 }
 
-.app-small-ul-links li :hover {
+.app__navbar-smallscreen_links li:hover {
     color: var(--color-white);
 }
 
 @media screen and (min-width: 2000px) {
     .app-logo img {
-        display: none;
+        width: 210px;
     }
 }
 
@@ -109,7 +109,7 @@
     .app-navbar-links {
         display: none;
     }
-    .app-small-ul-links {
+    .app__navbar-smallscreen {
         display: flex;
     }
 }
@@ -118,10 +118,10 @@
     .app-navbar {
         padding: 1rem;
     }
-    .app-logo {
+    .app-navbar-login {
         display: none;
     }
-    .app-logo {
+    .app-logo img {
         width: 110px;
     }
 }
