@@ -1,0 +1,9 @@
+.right-container img {
+    width: 80%;
+}
+
+.app-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color-black);
+}
