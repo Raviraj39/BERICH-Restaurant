@@ -41,3 +41,39 @@
 .p__opensans {
     margin: 1rem 0rem;
 }
+
+@media screen and (max-width: 2000px) {
+    .right-container img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .right-container img {
+        width: 40vh;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .app-header {
+        flex-direction: column;
+    }
+    .right-container img {
+        width: 40vh;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .right-container img {
+        width: 30vh;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .right-container img {
+        width: 20vh;
+        margin-top: 20px;
+    }
+}
