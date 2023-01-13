@@ -25,7 +25,7 @@ const SpecialMenu = () => (
             price={wine.price}
             tags={wine.tags}
           /> */}
-          {datacamp}
+          {/* {datacamp} */}
         </div>
       </div>
       <div className="app-wine-menu-image">
