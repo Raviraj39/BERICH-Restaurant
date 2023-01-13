@@ -1,9 +1,43 @@
+.app-header {
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 4rem 6rem;
+}
+
+.left-container {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.app-header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-size: 3em;
+}
+
 .right-container img {
     width: 80%;
 }
 
-.app-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: var(--color-black);
+.right-container {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.p__opensans {
+    margin: 1rem 0rem;
 }

@@ -11,12 +11,10 @@ const Header = () => (
       <h1 className="app-header-h1">
         The Key To <br /> Fine Dining
       </h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, pariatur
-        <br />
-        perspiciatis consequuntur quas repudiandae, id error reprehenderit
-        <br />
-        nesciunt sunt debitis cupiditate maiores.
+      <p className="p__opensans">
+        Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat
+        morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet
+        tellus
       </p>
       <button type="button" className="custom__button">
         Explore Menu
