@@ -19,8 +19,8 @@ import award03 from "../assets/award03.png";
 import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
-import gericht from "../assets/gericht.png";
 import berich from "../assets/berich.png";
+import welcome2 from "../assets/welcome2.png";
 
 export default {
   bg,
@@ -44,6 +44,6 @@ export default {
   award05,
   sign,
   quote,
-  gericht,
   berich,
+  welcome2,
 };
