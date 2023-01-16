@@ -1,0 +1,36 @@
+.chef-para-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.chef-quote {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.chef-quote img {
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+.app-chef-sign p:first-child {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    text-transform: capitalize;
+    color: var(--color-golden);
+}
+
+.app-chef-sign img {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:2000px) {
+    
+}
