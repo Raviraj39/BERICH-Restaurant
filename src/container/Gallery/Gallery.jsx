@@ -7,7 +7,14 @@ import {
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
 import "./Gallery.css";
+import PropTypes from "prop-types";
 
+const Galleryimages = [
+  images.gallery01,
+  images.gallery02,
+  images.gallery03,
+  images.gallery04,
+];
 const Gallery = () => {
   const scrollRef = React.useRef(null);
 
@@ -16,6 +23,7 @@ const Gallery = () => {
     if (direction === "left") {
       current.scrollLeft -= 300;
     } else {
+      current.scrollLeft += 300;
     }
   };
   return (
@@ -32,7 +40,17 @@ const Gallery = () => {
         </button>
       </div>
       <div className="app-gallary-images">
-        <div className="app-gallary-images-contianer" ref={scrollRef}></div>
+        <div className="app-gallary-images-container" ref={scrollRef}>
+          {Galleryimages.map((image, index) => (
+            <div
+              className="app__gallary-images-card flex__center"
+              key={`gallary_image-${index + 1}`}
+            >
+              <img src={image} alt="gallary " />
+              <BsInstagram className="gallary_image-insta" />
+            </div>
+          ))}
+        </div>
         <div className="app-gallary-images-arrow">
           <BsArrowLeftShort
             className="gallary-arrow-icon"
@@ -47,4 +65,9 @@ const Gallery = () => {
     </div>
   );
 };
+Gallery.propTypes = {
+  image: PropTypes.node.isRequired,
+};
 export default Gallery;
+//in this project i make gallery corsel which is based on image funtion stored images and we call them using mapping
+//scrolling funtioning use this project- onlcick invent call the scroll function and though getting change
