@@ -9,7 +9,9 @@ const AboutUs = () => (
     </div>
     <div className="app-aboutus-content flex__center  ">
       <div className="aboutus-content-aboutus">
-        <h1 className="headtext__cormorant">About us</h1>
+        <h1 className="headtext__cormorant" id="about">
+          About us
+        </h1>
         <img src={images.spoon} alt="spoon-aboutus" />
         <p className="p__opensans">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra

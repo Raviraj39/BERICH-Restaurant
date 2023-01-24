@@ -17,8 +17,8 @@ const Footer = () => (
       <div className="app-footer-links-logo">
         <img src={images.berich} alt="logo" />
         <p className="p__opensans">
-          "The best way to find yourself is to lose yourself in the service of
-          others.”
+          The best way to find yourself is to lose yourself in the service of
+          others.
         </p>
         <img
           src={images.spoon}
@@ -32,7 +32,7 @@ const Footer = () => (
           <FiInstagram />
         </div>
       </div>
-      <div className="app-footer-link-work">
+      <div className="app-footer-links-work">
         <h1 className="app-footer-headetext">Working Hours</h1>
         <p className="p__opensans">Monday-Friday: </p>
         <p className="p__opensans">08:00 am -12:00 am</p>

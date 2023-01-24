@@ -67,11 +67,7 @@ const Navbar = () => {
                   Menu
                 </a>
               </li>
-              <li>
-                <a href="#awards" onClick={() => setToggleMenu(false)}>
-                  Awards
-                </a>
-              </li>
+
               <li>
                 <a href="#contact" onClick={() => setToggleMenu(false)}>
                   Contact
