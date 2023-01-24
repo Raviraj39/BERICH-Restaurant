@@ -22,9 +22,7 @@ const Navbar = () => {
         <li className="nav-link">
           <a href="#menu">Menu</a>
         </li>
-        <li className="nav-link">
-          <a href="#awards">Awards</a>
-        </li>
+
         <li className="nav-link">
           <a href="#contact">Contact</a>
         </li>
@@ -67,7 +65,6 @@ const Navbar = () => {
                   Menu
                 </a>
               </li>
-
               <li>
                 <a href="#contact" onClick={() => setToggleMenu(false)}>
                   Contact
