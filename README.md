@@ -19,6 +19,8 @@ Our Frontend Website is designed to give beautiful UI and ordering exprience, wi
 
 ## Screenshots
 
+![veide](src/assets/news.gif)
+
 ### Live at
 
 https://berich-restaurant.vercel.app/
