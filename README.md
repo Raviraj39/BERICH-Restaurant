@@ -17,7 +17,7 @@
 
 Our Frontend Website is designed to give beautiful UI and ordering exprience, with featuers such as our Menu section, Photo Gallary and Attractive UI.Build with React, Props and CSS, Our Website is Userfriendly and Responsive in all device.
 
-## Screenshots
+## Output
 
 ![veide](src/assets/news.gif)
 
