@@ -14,7 +14,7 @@ import findus from "../assets/findus.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import berich from "../assets/berich.png";
-import welcome2 from "../assets/welcome2.png";
+import welcome from "../assets/welcome.png";
 
 export default {
   bg,
@@ -33,5 +33,5 @@ export default {
   sign,
   quote,
   berich,
-  welcome2,
+  welcome,
 };

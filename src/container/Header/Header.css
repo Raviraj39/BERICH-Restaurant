@@ -26,7 +26,8 @@
 }
 
 .right-container img {
-    width: 80%;
+    width: 70%;
+    height: 60%;
 }
 
 .right-container {
@@ -44,7 +45,7 @@
 
 @media screen and (max-width: 2000px) {
     .right-container img {
-        width: 80%;
+        width: 75%;
     }
 }
 
